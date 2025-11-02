@@ -1,0 +1,45 @@
+/* add these at the top with the rest */
+select {
+  width: 100%;
+  padding: 0.8rem;
+  border: 2px solid #009ddc;
+  border-radius: 8px;
+  margin-bottom: 1.2rem;
+  font-size: 1rem;
+  background: white;
+  outline: none;
+}
+
+/* category filter styles */
+#category-filter {
+  margin: 1rem 0;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+#category-filter select {
+  width: auto;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  border-radius: 6px;
+}
+
+/* category tags */
+.category-tag {
+  display: inline-block;
+  padding: 0.3rem 0.6rem;
+  background: #ffd166;
+  color: #333;
+  border-radius: 5px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+/* color tags based on category */
+.category-Show { background: #ff6b6b; }
+.category-Movie { background: #6b6bff; }
+.category-Game  { background: #4caf50; }
+.category-Food  { background: #ffd166; }
+.category-Book  { background: #ffaf6b; }
+.category-Product { background: #9b59b6; }
